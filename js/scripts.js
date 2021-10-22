@@ -1,6 +1,5 @@
 $(document).ready(function() {
   $("form#formLang").submit(function(event) {
-    event.preventDefault();
     const question1 = $("#question1").val();
     const question2 = $("#question2").val();
     const question3 = $("#question3").val();
@@ -11,22 +10,32 @@ $(document).ready(function() {
   
     if (question1 ==="Green" && (question2 ==="Video Games" || question3 ==="Working at a bigger, well known company")) {
     result = "Learn C# !";
-  }
+    }
     else if (question1 ==="Red" && (question2 ==="E-commerce websites" || question3 ==="Working at a smaller startup")) {
       result = "Learn Ruby !";
     }
 
     else if (question1 ==="Blue" && (question2 =="Interactive web-pages" || question3 ==="Either/Both")) {
-    result = "JavaScript";
+    result = "Learn JavaScript !";
     }
 
     else {
-      result = "Learn any language!";
+      result = "Learn Python!";
     }
 
     $("#resultLang").text(result);
     $("#resultLang").show();
-  
+    
+    $("#question1").prop("selectedIndex", -1);
+    $("#question2").prop("selectedIndex", -1);
+    $("#question3").prop("selectedIndex", -1);
+    $("#question4").prop("selectedIndex", -1);
+    $("#question5").prop("selectedIndex", -1);
+
+    
+    
+    
+    event.preventDefault();
   
   });
 });

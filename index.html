@@ -10,12 +10,13 @@
 </head>
 <body>
   <div class="container">
-    <h1>Programming Language Selector!</h1>
-      <h3>A quiz to find out which programming language you should learn. Please answer the questions below:</h3>
+    <h1>Programming Language Selector</h1>
+      <h3>A quiz to find out which programming language you should learn! Please answer the questions below:</h3>
     <form id="formLang">
       <label>
         <h4>1. What's your favorite color?</h4>
         <select class="form-control" id="question1">
+          <option disabled selected value> -- select an option -- </option>
           <option>Green</option>
           <option>Red</option>
           <option>Blue</option>
@@ -24,6 +25,7 @@
       <label>
         <h4>2. What are you most interested in creating?</h4>
         <select class="form-control" id="question2">
+          <option disabled selected value> -- select an option -- </option>
           <option>Video Games</option>
           <option>E-commerce websites</option>
           <option>Interactive web-pages</option>
@@ -32,22 +34,25 @@
       <label>
         <h4>3. Which would you prefer:</h4>
         <select class="form-control" id="question3">
+          <option disabled selected value> -- select an option -- </option>
           <option>Working at a bigger, well known company</option>
           <option>Working at a smaller startup</option>
           <option>Either/Both</option>
         </select>
       </label>
       <label>
-        <h4>4. What's you favorite season?</h4> 
-        <select class="form-control id="question4> 
+        <h4>4. What's your favorite season?</h4> 
+        <select class="form-control" id="question4"> 
+          <option disabled selected value> -- select an option -- </option>
           <option>Summer</option> 
           <option>Winter</option> 
           <option>Other</option>
         </select> 
       </label>
       <label>
-        <h4>5. Are you a cat person or a dog person</h4> 
+        <h4>5. Are you a cat person or a dog person?</h4> 
         <select class="form-control" id="question5"> 
+          <option disabled selected value> -- select an option -- </option>
           <option>Cat person</option> 
           <option>Dog person</option> 
           <option>Both</option> 
@@ -56,7 +61,7 @@
 
       <button type="submit" class="btn btn-dark">Results</button>
         
-      <br><div id="resultLang"></div>
+      <div id="resultLang"></div>
     </form>
   </div>
 </body>
