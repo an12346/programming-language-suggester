@@ -24,14 +24,7 @@ $(document).ready(function() {
     }
 
     $("#resultLang").text(result);
-    $("#resultLang").show();
-    
-    $("#question1").prop("selectedIndex", -1);
-    $("#question2").prop("selectedIndex", -1);
-    $("#question3").prop("selectedIndex", -1);
-    $("#question4").prop("selectedIndex", -1);
-    $("#question5").prop("selectedIndex", -1);
-
+    $("#resultLang").show();  
     
     
     
