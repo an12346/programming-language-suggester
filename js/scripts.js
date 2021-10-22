@@ -24,7 +24,8 @@ $(document).ready(function() {
     }
 
     $("#resultLang").text(result);
-    $("#resultLang").show();  
+    $("#resultLang").show(); 
+    
     
     
     
