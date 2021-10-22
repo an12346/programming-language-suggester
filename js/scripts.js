@@ -21,7 +21,7 @@ $(document).ready(function() {
     }
 
     else {
-      result = "Any language!";
+      result = "Learn any language!";
     }
 
     $("#resultLang").text(result);

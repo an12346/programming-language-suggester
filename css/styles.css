@@ -1,7 +1,36 @@
 #resultLang {
   display: none;
+  font-size: 50px
 }
 
 .btn {
   display: block;
+  margin: 0 auto;
+  color:chartreuse
+}
+
+#formLang {
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-decoration: underline overline chartreuse;
+}
+
+h3 {
+  text-align: center;
+}
+
+label, select {
+  display: block;
+}
+
+label {
+  margin-bottom: 20px;
+}
+
+h4 {
+  text-decoration: underline chartreuse;
 }

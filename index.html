@@ -10,50 +10,54 @@
 </head>
 <body>
   <div class="container">
-    <h1>Which programming language should you learn?<h1>
-      <form id="formLang">
-        <h2>1. What is your favorite color?</h2>
+    <h1>Programming Language Selector!</h1>
+      <h3>A quiz to find out which programming language you should learn. Please answer the questions below:</h3>
+    <form id="formLang">
+      <label>
+        <h4>1. What is your favorite color?</h4>
         <select class="form-control" id="question1">
           <option>Green</option>
           <option>Red</option>
           <option>Blue</option>
         </select>
-        <h2>2. What are you most interested in creating?</h2>
+      </label>
+      <label>
+        <h4>2. What are you most interested in creating?</h4>
         <select class="form-control" id="question2">
           <option>Video Games</option>
           <option>E-commerce websites</option>
           <option>Interactive web-pages</option>
         </select>
-        <h2>3. Which would you prefer:</h2>
+      </label>
+      <label>
+        <h4>3. Which would you prefer:</h4>
         <select class="form-control" id="question3">
           <option>Working at a bigger, well known company</option>
           <option>Working at a smaller startup</option>
           <option>Either/Both</option>
         </select>
-        <h2>4. What's you favorite season?</h2> 
+      </label>
+      <label>
+        <h4>4. What's you favorite season?</h4> 
         <select class="form-control id="question4> 
           <option>Summer</option> 
           <option>Winter</option> 
           <option>Other</option>
-          </select> 
-        <h2>5. Are you a cat person or a dog person</h2> 
+        </select> 
+      </label>
+      <label>
+        <h4>5. Are you a cat person or a dog person</h4> 
         <select class="form-control" id="question5"> 
           <option>Cat person</option> 
           <option>Dog person</option> 
           <option>Both</option> 
         </select> 
+      </label>
 
-        <button type="submit" class="btn">Enter</button>
-
-        <div id="resultLang">
-        </div>
-          
-          
-          
-          
-          
+      <button type="submit" class="btn btn-dark">Results</button>
         
-      </form>
+      <br><div id="resultLang"></div>
+    </form>
   </div>
 </body>
 </html>
