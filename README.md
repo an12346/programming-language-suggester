@@ -22,7 +22,7 @@ This is a programming language suggester, which has the user answer five questio
 
 ## Known Bugs
 
-* The "Results" button does not reset form fields 
+* The "Results" button does not reset the form fields after a second click
 
 ## License
 [MIT](https://opensource.org/licenses/MIT)
