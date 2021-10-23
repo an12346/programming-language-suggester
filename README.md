@@ -25,6 +25,9 @@ This is a programming language suggester, which has the user answer five questio
 * The "Results" button does not reset the form fields after a second click
 
 ## License
+
+[GitHub Repository](https://github.com/an12346/programming-language-suggester)
+
 [MIT](https://opensource.org/licenses/MIT)
 
 Copyright (c) 2021 Anna Pittman
